@@ -4,7 +4,7 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "postCreateCommand": "apt-get update && apt-get install -y vim",
+  "postCreateCommand": "apt-get update && apt-get install -y iputils-ping",
   "extensions": [
     "ms-azuretools.vscode-docker",
     "ms-vscode.go"  // Add or remove any other extensions you need
