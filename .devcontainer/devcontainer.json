@@ -7,7 +7,7 @@
   "postCreateCommand": "apt-get update && apt-get install -y iputils-ping",
   "extensions": [
     "ms-azuretools.vscode-docker",
-    "ms-vscode.go"  // Add or remove any other extensions you need
+    "ms-vscode.go"
   ],
   "features": {},
   "forwardPorts": [],
@@ -16,8 +16,14 @@
     "vscode": {
       "settings": {},
       "extensions": [
-        "dbaeumer.vscode-eslint" // Additional extensions can be added here
+        "dbaeumer.vscode-eslint"
       ]
+    },
+    "harnessGitspaces": {
+      "connectors": {
+        "type": "artifactory",
+        "name": "jfrog_harness"
+      }
     }
   }
 }
