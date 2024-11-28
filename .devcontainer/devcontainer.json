@@ -20,10 +20,12 @@
       ]
     },
     "harnessGitspaces": {
-      "connectors": {
-        "type": "Artifactory",
-        "identifier": "jfrog_harness"
-      }
+      "connectors": [
+        {
+          "type": "Artifactory",
+          "identifier": "jfrog_harness"
+        }
+      ]
     }
   }
 }
