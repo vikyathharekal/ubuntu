@@ -21,7 +21,7 @@
     },
     "harnessGitspaces": {
       "connectors": {
-        "type": "artifactory",
+        "type": "Artifactory",
         "identifier": "account.jfrog_harness"
       }
     }
