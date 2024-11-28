@@ -22,7 +22,7 @@
     "harnessGitspaces": {
       "connectors": {
         "type": "Artifactory",
-        "identifier": "account.jfrog_harness"
+        "identifier": "jfrog_harness"
       }
     }
   }
